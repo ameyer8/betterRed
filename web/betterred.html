@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <title>BetterRed</title>
+    <link rel="stylesheet" href="betterred.css">
+  </head>
+  <body>
+    <div>
+    <label>/r/</label><input id="subRed">  </input><a href="#" id="reload">reload</a>
+    </div>
+    <div id="content">
+      <div id="left">
+        <ul id="posts">
+        </ul>
+      </div>
+      <div id="right">
+        <div id="title"></div>
+        <div id="selfText"></div>
+        <ul id="comm" class="a">
+        </ul>
+      </div>
+    </div>
+
+
+    <script type="application/dart" src="betterred.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+    <script src="packages/browser/interop.js"></script>
+  </body>
+</html>
